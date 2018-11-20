@@ -60,7 +60,7 @@ function getWaterState(tempInCelsius) {
 }
 ```
 ## 5.使用async/await 来await 多个async函数
-可以使用==Promise.all== 来 ==await== 多个async(异步) 函数
+可以使用Promise.all 来 await多个async(异步) 函数
 ```
     await Promise.all([anAsyncCall(), thisIsAlsoAsync(), oneMore()])
 ```
